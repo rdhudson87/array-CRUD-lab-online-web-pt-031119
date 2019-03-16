@@ -7,15 +7,15 @@ def age
 end
 
 def #push
-  age << 54
+  age << [54,24]
 end
 
 def add_element_to_start_of_array(array, element)
-  age.upshift 
+  age.unshift(21)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  age.pop
 end
 
 def remove_element_from_start_of_array(array)
