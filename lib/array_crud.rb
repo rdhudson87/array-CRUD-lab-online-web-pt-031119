@@ -1,21 +1,21 @@
 def create_an_empty_array
-  
+  []
 end
 
-def create_an_array
-  
+def age
+  [32,24,26,21]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def #push
+  age << [54,24]
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  age.unshift(21)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  age.pop
 end
 
 def remove_element_from_start_of_array(array)
